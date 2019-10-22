@@ -8,4 +8,3 @@ int main(void)
     printf("h is %d",h =1/2*10*t*t);
     return 0;
 } 
-
