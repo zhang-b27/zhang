@@ -2,9 +2,8 @@
 
 int main(void)
 {
-    int h, t;
-    printf("Enter t :\n");
-    scanf("%d,&t");
-    printf("h is %d",h =1/2*10*t*t);
+    int i;
+    i=- 11%5;
+    printf("i is %d\n",i);
     return 0;
 } 
