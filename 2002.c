@@ -8,4 +8,4 @@ int main(void)
     aver=(a+b+c+d)/4.0;
     printf("sum is %d average is %.1f\n",sum,aver);
     return 0;
-}
+} 
