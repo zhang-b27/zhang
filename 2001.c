@@ -1,10 +1,12 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(void)
 {
-    int x;
-    printf("Enter x:\n");
-    scanf("%d",&x);
-    printf("x:%d-%d-%d\n",x/100,x/10%10,x%10);
+    int a,b,c,d,sum;
+    double average;
+    printf("Please Enter 4number:\n");
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    sum=a+b+c+d;
+    average=(a+b+c+d)/4;
+    printf("sum=%d average=%.1f\n",sum,average);
     return 0;
-} 
+}
